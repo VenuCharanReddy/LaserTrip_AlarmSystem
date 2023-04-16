@@ -9,8 +9,8 @@ import smtplib
 import datetime
 import time
 
-ldr = LightSensor(4)  # alter if using a different pin
-buzzer = Buzzer(17)  # alter if using a different pin
+ld = LightSensor(4)  
+buzzer = Buzzer(17)  
 led = LED(18)
 camera = PiCamera()
 
@@ -24,10 +24,10 @@ fromAdd= smtpUser
 while True:
     sleep(0.1)
     led.off()
-    if ldr.value < 0.5:  # adjust this to make the circuit more or less sensitive
+    if ld.value < 0.65:  
         buzzer.on()
         led.on()
-          # uncomment the next line to have the alarm trigger for 30 seconds.
+          
         camera.resolution = (2592,1944)
         camera.framerate = 15
         Captured1='/home/pi/Desktop/image'+datetime.datetime.now().strftime('%Y-%m-%d%H:%M:%S') + '.png'
