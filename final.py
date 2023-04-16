@@ -50,7 +50,7 @@ while True:
         msg['To'] = toAdd
         
         # Add text to the email
-        body = "Use the link below in VLC for Live Stream\n\n"
+        body = "Use the link below for Live Stream\n\n"
         msg.attach(MIMEText(body, 'plain'))
         
         # Add links to the email
