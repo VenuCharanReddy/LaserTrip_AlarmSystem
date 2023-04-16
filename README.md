@@ -16,9 +16,11 @@ Power supply
 PiCamera
 User manual
 
+
 **Installation:**
 
 a. First, Install the RaspberryPi Os using Imager(recommended 32-bit) and then using putty initialise the VNC viewer. Log-in to VNC Viewer by using username and password. Its better to enable hotspot at the installation of RaspberryPi Os.
+
 
 
 b. _Mounting the Laser Emitter and Receiver:_
@@ -26,9 +28,11 @@ b. _Mounting the Laser Emitter and Receiver:_
 The laser emitter and receiver should be mounted facing each other at the desired distance, with the laser beam passing between them. Use the mounting brackets provided to securely mount the emitter and receiver on opposite sides of the area to be monitored.
 
 
+
 c. _Connecting the Alarm and Power Supply:_
 
 Connect the alarm and power supply to the laser receiver according to the instructions provided. Ensure that the power supply is connected to a stable power source with the correct voltage and polarity.
+
 
 
 d. _Testing:_
@@ -44,10 +48,12 @@ Now run the code and test your laser tripwire.
 If you want to run your code as soon as the Raspberry Pi boots up, then have a look at the instructions below for automating tasks with Cron.
 
 
+
 e._Enable Camera:_
 
 sudo raspi-config (type the code in terminal)
 Select Interface Options and enable the camera. Then use the cam.py code and check whether cam is working. 
+
 
 
 f. _Setting up Email:_
@@ -56,9 +62,11 @@ using smtplib we have created a email id and created a app password. Using that 
 Go through with sent.py
 
 
+
 g._Setting up LiveStream:_
 
 Follow live file for this...
+
 
 
 **Operation:**
