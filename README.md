@@ -18,44 +18,43 @@ User manual
 Installation:
 a. First, Install the RaspberryPi Os using Imager(recommended 32-bit) and then using putty initialise the VNC viewer. Log-in to VNC Viewer by using username and password. Its better to enable hotspot at the installation of RaspberryPi Os.
 
-b. Mounting the Laser Emitter and Receiver:
 
+b. Mounting the Laser Emitter and Receiver:
 The laser emitter and receiver should be mounted facing each other at the desired distance, with the laser beam passing between them. Use the mounting brackets provided to securely mount the emitter and receiver on opposite sides of the area to be monitored.
 
-c. Connecting the Alarm and Power Supply:
 
+c. Connecting the Alarm and Power Supply:
 Connect the alarm and power supply to the laser receiver according to the instructions provided. Ensure that the power supply is connected to a stable power source with the correct voltage and polarity.
 
-d. Testing:
 
+d. Testing:
 Test the system by breaking the laser beam between the emitter and receiver. The alarm should sound immediately when the beam is broken. If the system does not work properly, refer to the troubleshooting section of this manual.
 
 Once the circuit has been tested, you can wire up the components directly to the Raspberry Pi as shown below.
 Place one leg of the LDR and the long leg of the capacitor into a female-to-female jumper lead. Then tape it up to secure the legs.
 Place the remaining legs into jumper leads, then plug it all back into the Raspberry Pi.
-
 You can place the Raspberry Pi and components in a housing to conceal them if you wish. Here we have used a plastic box with a hole made in it for the straw:
 Place your container near a doorway. Then affix the laser pointer to the wall so the beam is focused down the straw.
 Now run the code and test your laser tripwire.
 If you want to run your code as soon as the Raspberry Pi boots up, then have a look at the instructions below for automating tasks with Cron.
 
-e.Enable Camera:
 
+e.Enable Camera:
 sudo raspi-config (type the code in terminal)
 Select Interface Options and enable the camera. Then use the cam.py code and check whether cam is working. 
 
-f. Setting up Email:
 
+f. Setting up Email:
 using smtplib we have created a email id and created a app password. Using that we are sending a mail by attaching the images captured by PiCamera.
+Go through with sent.py
+
 
 g.Setting up LiveStream:
-
 Follow live file for this...
 
 
 Operation:
 The Laser Trip Wire System is designed to detect movement and trigger an alarm when the laser beam is broken. The system can be used for security purposes, such as detecting intruders or for industrial automation purposes to detect movement of machinery.
-
 
 
 Safety Precautions:
