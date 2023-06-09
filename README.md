@@ -74,13 +74,6 @@ Follow live file for this...
 The Laser Trip Wire System is designed to detect movement and trigger an alarm when the laser beam is broken. The system can be used for security purposes, such as detecting intruders or for industrial automation purposes to detect movement of machinery.
 
 
-**Safety Precautions:**
-
-a. The laser beam emitted by the Laser Trip Wire System is harmful to the eyes. Do not look directly at the laser beam or expose others to the beam.
-b. Keep the Laser Trip Wire System out of reach of children and unauthorized personnel.
-c. Use caution when installing and testing the system to avoid injury or damage to the components.
-d. Ensure the system is installed and operated in compliance with all applicable laws and regulations.
-
 We hope you find the Laser Trip Wire System useful and reliable for your security or industrial automation needs. If you have any questions or concerns, please contact 
 
 Best regards,
